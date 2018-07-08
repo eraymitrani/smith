@@ -5,7 +5,7 @@ END='\033[0m'
 
 if [[ $1 == "" ]] || [[ $1 == "-h" ]] || [[ $1 == "--help" ]]; then
 	echo "smith <host>"
-	echo "smith http.//example.com"
+	echo "smith http://example.com"
 	echo "or"
 	echo "smith <list of hosts>"
 	echo "smith list.txt"
